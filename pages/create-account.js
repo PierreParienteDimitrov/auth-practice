@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-
 import { useState, useRef } from 'react';
 
 async function createUser(inputName, inputEmail, inputPassword) {
